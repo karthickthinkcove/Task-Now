@@ -1,0 +1,84 @@
+body {
+    height: 100%;
+    font-family: Arial, sans-serif;
+    align-items: center;
+    
+    
+    
+}
+ 
+* {
+    box-sizing: border-box;
+    align-items: center;
+}
+ 
+h1 {
+    text-align:center;
+    color:rgb(16, 147, 103);
+    -webkit-text-stroke: 1px black;
+    text-transform: uppercase;
+    margin-left: 15%;
+}
+ 
+
+.bg-img {
+    background-image: url(
+"https://www.online-image-editor.com/index.cfm?fa=download_file&image_path=https://imagehost9.online-image-editor.com/oie_upload/images/1125844g24E7w/0QkhXiDe0Hme.jpg");
+    min-height: 1000px;
+    background-size: cover;
+}
+
+
+
+.container {
+    position: absolute;
+    left: 28px;
+    top: 50px;
+    margin: 20px;
+    max-width: 300px;
+    padding: 16px;
+    margin-left: 45%;
+    
+    
+}
+
+b  {
+    color: green;
+    font-size:23px;
+    -webkit-text-stroke: 1px black;
+    margin-left: 22%;
+}
+
+
+input[type=text],
+input[type=datetime-local] {
+    width: 147%;
+    padding: 15px;
+    margin: 15px 0px;
+    border: 2px solid green;
+}
+
+
+
+ 
+
+
+
+.button {
+    background-color: green;
+    color: white;
+    padding: 16px 16px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-left: 50px;
+    margin-top: 10%;
+}
+ 
+.button:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s;
+}
+textarea {
+    border-color: green);
+}
