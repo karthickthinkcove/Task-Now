@@ -1,7 +1,14 @@
 <div class="bg-img">
-    <h1>Task Page</h1>
-     
+  <div class="img"><img src="https://snacknation.com/wp-content/uploads/2020/12/Best-Task-Management-Software-Platforms.png"> </div>
+  
+  
     <form class="container">
+      
+      
+      <h1>Task Page</h1>
+      
+        
+      
         <b>Username</b>
         <input list="username" type="text" placeholder="User Name">
         <datalist id="username">
@@ -12,30 +19,28 @@
 
 
         <b>Taskname</b>
-        <input type="text" placeholder="Enter Taskname"
-                name="Taskname" required>
-    
+        <input list="taskname" type="text" placeholder="Taskname">
+        <datalist id="taskname">
+               
+                  <option value="Task Management System">
+                  <option value="Creating a resume">
+                  <option value="Creating a survey form">
+                  </datalist>
          <b>User Mail</b>
-        <input list="email" type="text" placeholder="select a mail">
+        <input list="email" type="text" placeholder="Select a mail">
         <datalist id="email">
           <option value="karthickvk92@gmail.com">
           <option value="prabhu23@gmail.com">
           <option value="aruna2000@gmail.com">
           </datalist>
-
-        <b>Task Description</b><br><br>
-        <textarea rows="8" cols="50" placeholder="Enter the description"></textarea><br><br>
-            
-            
-        <b>Start Date&Time</b>
-        <input type="datetime-local" placeholder="date&time"
-        name="datetime-local" required><br><br>
-        
+          <b>Start Date&Time</b>
+        <input type="datetime-local" placeholder="date&time" name="datetime-local" required>
         <b>Estimate Date&Time</b>
-        <input type="datetime-local" placeholder="date&time"
-        name="datetime-local" required>
+        <input type="datetime-local" placeholder="date&time" name="datetime-local" required>
+        
+        <b>Task Description</b><br>
+        <textarea rows="8" cols="50" placeholder="Enter the description"></textarea><br>
 
         <button type="submit" class="button">submit</button>
     </form>
 </div>
-
