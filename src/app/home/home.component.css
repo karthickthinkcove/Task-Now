@@ -1,0 +1,89 @@
+
+
+
+
+button  {
+    display:black;
+    width: 10%;
+    height: 30px;
+    border-radius: 15px;
+    outline: none;
+    border: none;
+    background-image: linear-gradient(to right,#5edcf8, #48758e, #7f75d7);
+    background-size: 100%;
+    font-size: 1.2rem;
+    color: #fff;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   
+    margin: 1rem 0;
+    cursor: pointer;
+    transition: 0.5s;
+    margin-left:43%;
+    
+    
+      }
+
+      p{
+        margin-left: 45%;
+      }
+
+        button:hover {
+    background-position: right;
+  }
+
+  .bg-img {
+    background-image: url("https://cdn.dribbble.com/users/2561416/screenshots/15218794/media/608073938c4c4935b356924b3edaa0b9.png?compress=1&resize=1000x750&vertical=top");
+    min-height: 500px;
+    background-size:800px;
+    background-repeat: no-repeat;  
+    background-position:left;
+    background-position: center;
+    
+}
+
+h1{
+    text-align: center;
+}
+h1,.text {
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    color:rgb(5, 70, 175);
+    letter-spacing: 8px;
+    margin-bottom: 20px;
+    text-align: center;
+    position:relative;
+    animation: text 3s 1;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+  }
+  
+  @keyframes text {
+    0% {
+        color: black;
+        margin-bottom: -40px;
+        color:rgb(16, 202, 234);
+    }
+  
+    30% {
+        letter-spacing: 25px;
+        margin-bottom: -40px;
+        color:rgb(84, 12, 119);
+    }
+  
+    85% {
+        letter-spacing: 8px;
+        margin-bottom: -40px;
+        color:rgb(19, 226, 253);
+    }
+  }
+
+  .container {
+margin-top: 10%;
+
+  }
+
+    
+
+
+  
