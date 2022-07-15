@@ -1,40 +1,47 @@
 <img class="wave" src="https://i.postimg.cc/sDG8zyXM/wave.png">
-    <div class="container">
-      <div class="img">
+<div class="container">
+    <div class="img">
         <img src="https://svgshare.com/i/JcM.svg">
-      </div>
-      <div class="login-content">
-        <form action="index.html">
-          <img src="https://svgshare.com/i/Jcf.svg">
-          <h2 class="title">Login</h2>
-          <div class="input-div one">
-            <div class="i">
-              <i class="fas fa-user"></i>
-            </div>
-            <div class="div">
-              <input type="text" name="aname" placeholder="Username" required>
-            </div>
-          </div>
-          <div class="input-div pass">
-            <div class="i">
-              <i class="fas fa-lock"></i>
-            </div>
-            <div class="div">
-            <input type="password" name="apass" placeholder="Password" required>
-            </div>
-          </div>
-          
-          <button type="submit"><a href="task">Log In</a></button>
-        
-          <br>
-          <p>-------or-------</p>
-
-          <button type="submit"><a href="regis">Register</a></button>
-          
-          
-
-         
-
-        </form>
-      </div>
     </div>
+    <div class="login-content">
+        <form action="index.html">
+            <nav class="navbar navbar-light bg-primary">
+                <div class="container-fluid">
+                    <div class="d-flex">
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">LOGIN</h5>
+                        
+                    </div>                       
+                     <form [formGroup]="formValue">
+
+                    <div class="modal-body">
+                       
+                        <div class="mb-3">
+                            <label for="userName" class="form-label">UserName</label>
+                            <input type="text" formControlName="userName" class="form-control"
+                                    id="userName">
+                    </div>
+                    <div class="mb-3">
+                        <label for="password" class="form-label">Password</label>
+                        <input type="password" formControlName="Password" class="form-control"  id="Password">
+                </div>
+                </div>
+
+                        
+                        
+                    
+                    <div class="modal-footer">
+                        
+                        <button type="button" class="btn btn-primary"(click)="postEmployeDetails()"><a href="task">Log In</a></button>
+                        <button type="button"class="btn btn-primary" (click)="postEmployeDetails()"><a href="register">Register</a></button>
+                    </div>
+                    
+            

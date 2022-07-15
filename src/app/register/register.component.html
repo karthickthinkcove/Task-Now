@@ -1,0 +1,49 @@
+<img class="wave" src="https://i.postimg.cc/sDG8zyXM/wave.png">
+<div class="container">
+    <div class="img">
+        <img src="https://svgshare.com/i/JcM.svg">
+    </div>
+    <div class="login-content">
+        <form action="index.html">
+            <nav class="navbar navbar-light bg-primary">
+                <div class="container-fluid">
+                    <div class="d-flex">
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                        </div>
+                    </div>
+                </div>
+            </nav>    <div class="modal-dialog">
+            <div class="modal-content">
+                    <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Register Page</h5>
+                    </div>
+                        <div class="modal-body">
+                                <form [formGroup]="formValue">
+                                        <div class="mb-3">
+                                                <label for="firstName" class="form-label">FirstName</label>
+                                                <input type="text" formControlName="firstName" class="form-control"
+                                                        id="FirstName">
+                                        </div>
+                                        <div class="mb-3">
+                                                <label for="lastName" class="form-label">LastName</label>
+                                                <input type="text" formControlName="lastName" class="form-control"
+                                                        id="LastName">
+                                        </div>
+                                        <div class="mb-3">
+                                                <label for="exampleInputEmail1" class="form-label">Email address</label>
+                                                <input type="email" formControlName="Email" class="form-control"
+                                                        id="exampleInputEmail1" aria-describedby="emailHelp">
+                                        </div>
+                                        <div class="mb-3">
+                                                <label for="password" class="form-label">Password</label>
+                                                <input type="password" formControlName="Password" class="form-control"  id="Password">
+                                        </div>
+                                </form>
+                        </div>
+                        <div class="modal-footer">
+                                <button type="button" class="btn btn-primary" 
+                                        (click)= "postEmployeDetails()"><a href="task">REGISTER</a></button>
+                        </div>
+                </div>
+        </div>
